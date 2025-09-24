@@ -1,0 +1,215 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Your Portfolio</title>
+    
+    <!-- External Stylesheet (Consolidated) -->
+    <link rel="stylesheet" href="css/main.css">
+    
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+    <!-- Icons: Font Awesome Brands -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" referrerpolicy="no-referrer" />
+</head>
+<body>
+    <!-- Animated Background -->
+    <div class="bg-animation"></div>
+
+    <!-- Navigation -->
+    <nav>
+        <ul>
+            <li><a href="#home" class="nav-link active">Home</a></li>
+            <li><a href="#about" class="nav-link">About</a></li>
+            <li><a href="#projects" class="nav-link">Projects</a></li>
+            <li><a href="#contact" class="nav-link">Contact</a></li>
+        </ul>
+    </nav>
+
+    <!-- Main Content -->
+    <main>
+        <!-- Hero Section -->
+        <section id="home" class="hero">
+            <div class="container">
+                <h1>Vanness Christian Rulianto</h1>
+                <p class="subtitle">Undergraduate Data Science at Binus University</p>
+                <p class="description">
+                    Passionate about using machine learning, SQL, and Python to turn raw data into meaningful solutions.
+                    Always seeking growth, I aim to craft impactful data applications and one day bring my skills overseas.
+                </p>
+                <div class="cta-buttons">
+                    <a href="#projects" class="btn btn-primary">View My Work</a>
+                    <a href="#contact" class="btn btn-secondary">Get In Touch</a>
+                </div>
+            </div>
+        </section>
+
+        <!-- About Section -->
+        <section id="about" class="about">
+            <div class="container">
+                <div class="about-content">
+                    <div class="profile-image"></div>
+                    <div class="about-text">
+                        <h2>About Me</h2>
+                        <p>
+                            I am an undergraduate Data Science student with hands-on experience in Python, SQL, and machine learning. During my internship at PT. IMS, I deepened my SQL expertise while also exploring C# and Highcharts, contributing to client-facing dashboards that transformed financial data into actionable insights. That experience solidified my passion for working with data—shaping raw information into meaningful solutions that support decision-making.
+                        </p>
+                        <p>
+                            I aspire to grow into a Data Scientist or Data Engineer, roles where I can apply both technical and analytical skills while continuously learning. I actively seek improvement in both hard and soft skills, and my long-term goal is to work in a multinational company, eventually pursuing opportunities abroad as an expat.
+                        </p>
+                        <p> 
+                            Outside of academics and work, I enjoy playing games—mainly osu!—and love listening to music, especially C-Pop. I’m also a fan of sports like badminton and (casually) basketball, and I enjoy reading, whether it’s fiction to unwind or psychology to better understand people and ideas. These hobbies keep me balanced and fuel my curiosity, both in and out of the data field.
+                        </p>
+                        <div class="skills">
+                            <span class="skill-tag"><i class="fa-brands fa-python" aria-hidden="true"></i> Python</span>
+                            <span class="skill-tag"><i class="fa-solid fa-database" aria-hidden="true"></i> SQL</span>
+                            <span class="skill-tag"><i class="fa-solid fa-robot" aria-hidden="true"></i> Machine Learning</span>
+                            <span class="skill-tag"><i class="fa-solid fa-brain" aria-hidden="true"></i> Deep Learning (LSTM)</span>
+                            <span class="skill-tag"><i class="fa-solid fa-wave-square" aria-hidden="true"></i> Time Series (ARIMA)</span>
+                            <span class="skill-tag"><i class="fa-solid fa-flask" aria-hidden="true"></i> Scikit-learn</span>
+                            <span class="skill-tag"><i class="fa-solid fa-cubes" aria-hidden="true"></i> NumPy</span>
+                            <span class="skill-tag"><i class="fa-solid fa-table-cells-large" aria-hidden="true"></i> Pandas</span>
+                            <span class="skill-tag"><i class="fa-solid fa-chart-line" aria-hidden="true"></i> Matplotlib</span>
+                            <span class="skill-tag"><i class="fa-solid fa-chart-bar" aria-hidden="true"></i> Seaborn</span>
+                            <span class="skill-tag"><i class="fa-solid fa-chart-area" aria-hidden="true"></i> Plotly</span>
+                            <span class="skill-tag"><i class="fa-solid fa-bolt" aria-hidden="true"></i> FastAPI</span>
+                            <span class="skill-tag"><i class="fa-solid fa-gauge-high" aria-hidden="true"></i> Streamlit</span>
+                            <span class="skill-tag"><i class="fa-brands fa-docker" aria-hidden="true"></i> Docker</span>
+                            <span class="skill-tag"><i class="fa-brands fa-git-alt" aria-hidden="true"></i> Git</span>
+                            <span class="skill-tag"><i class="fa-solid fa-database" aria-hidden="true"></i> PostgreSQL</span>
+                            <span class="skill-tag"><i class="fa-solid fa-database" aria-hidden="true"></i> MySQL</span>
+                            <span class="skill-tag"><i class="fa-solid fa-chart-area" aria-hidden="true"></i> Highcharts</span>
+                            <span class="skill-tag"><i class="fa-solid fa-code" aria-hidden="true"></i> C#</span>
+                            <span class="skill-tag"><i class="fa-solid fa-diagram-project" aria-hidden="true"></i> Data Pipelines</span>
+                            <span class="skill-tag"><i class="fa-solid fa-magnifying-glass-chart" aria-hidden="true"></i> Exploratory Data Analysis</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Projects Section -->
+        <section id="projects">
+            <div class="container">
+                <h2 class="section-title">Featured Projects</h2>
+                <div class="projects-grid">
+                    <!-- Machine Learning Model Deployment (Most relevant) -->
+                    <div class="project-card">
+                        <div class="project-thumb" role="img" aria-label="Project thumbnail placeholder"></div>
+                        <h3>Machine Learning Model Deployment</h3>
+                        <p>Deployed a machine learning model with FastAPI for a RESTful inference API and integrated Streamlit to provide an interactive dashboard for model exploration and user input.</p>
+                        <ul class="project-points">
+                            <li>Placeholder impact point about deployment performance or UX.</li>
+                            <li>Placeholder detail about infra, CI/CD, or scaling.</li>
+                        </ul>
+                        <div class="project-tags">
+                            <span class="project-tag">Python</span>
+                            <span class="project-tag">FastAPI</span>
+                            <span class="project-tag">Streamlit</span>
+                            <span class="project-tag">Model Deployment</span>
+                        </div>
+                        <a href="https://github.com/van-lian/Model-Deployment-withFastAPI" class="btn btn-primary" target="_blank" rel="noopener noreferrer" title="Open GitHub repository"><i class="fa-brands fa-github" aria-hidden="true"></i> GitHub</a>
+                    </div>
+
+                    <!-- Time Series Forecasting -->
+                    <div class="project-card">
+                        <div class="project-thumb" role="img" aria-label="Project thumbnail placeholder"></div>
+                        <h3>Time Series Forecasting</h3>
+                        <p>Developed time series forecasting models using Python to predict future trends and patterns from historical data, implementing ARIMA, LSTM, and other advanced forecasting techniques.</p>
+                        <ul class="project-points">
+                            <li>Placeholder metric about forecast accuracy or MAE/RMSE.</li>
+                            <li>Placeholder detail on data pipeline or feature engineering.</li>
+                        </ul>
+                        <div class="project-tags">
+                            <span class="project-tag">Python</span>
+                            <span class="project-tag">Time Series</span>
+                            <span class="project-tag">ARIMA</span>
+                            <span class="project-tag">LSTM</span>
+                            <span class="project-tag">Forecasting</span>
+                        </div>
+                        <a href="https://github.com/van-lian/multivariable-time-series-problem" class="btn btn-primary" target="_blank" rel="noopener noreferrer" title="Open GitHub repository"><i class="fa-brands fa-github" aria-hidden="true"></i> GitHub</a>
+                    </div>
+
+                    <!-- Airbnb Data Analysis -->
+                    <div class="project-card">
+                        <div class="project-thumb" role="img" aria-label="Project thumbnail placeholder"></div>
+                        <h3>Airbnb Data Analysis</h3>
+                        <p>Explored Airbnb listings data to uncover insights on pricing, demand, and location trends. Cleaned and analyzed data, built visualizations, and presented actionable findings.</p>
+                        <ul class="project-points">
+                            <li>Placeholder insight about pricing or demand drivers.</li>
+                            <li>Placeholder note on visualization or dataset scale.</li>
+                        </ul>
+                        <div class="project-tags">
+                            <span class="project-tag">Python</span>
+                            <span class="project-tag">SQL</span>
+                            <span class="project-tag">Pandas</span>
+                            <span class="project-tag">Data Visualization</span>
+                            <span class="project-tag">Exploratory Analysis</span>
+                        </div>
+                        <a href="https://github.com/van-lian/AirBnB-Project" class="btn btn-primary" target="_blank" rel="noopener noreferrer" title="Open GitHub repository"><i class="fa-brands fa-github" aria-hidden="true"></i> GitHub</a>
+                    </div>
+
+                    <!-- Financial Data Dashboard (no GitHub link) -->
+                    <div class="project-card">
+                        <div class="project-thumb" role="img" aria-label="Project thumbnail placeholder"></div>
+                        <h3>Financial Data Dashboard</h3>
+                        <p>Developed an interactive dashboard at PT. IMS using C# and Highcharts to transform financial data into actionable insights for client decision-making.</p>
+                        <ul class="project-points">
+                            <li>Placeholder note on stakeholder impact or time saved.</li>
+                            <li>Placeholder detail on data refresh cadence or charts.</li>
+                        </ul>
+                        <div class="project-tags">
+                            <span class="project-tag">C#</span>
+                            <span class="project-tag">Highcharts</span>
+                            <span class="project-tag">SQL</span>
+                            <span class="project-tag">Data Visualization</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Contact Section -->
+        <section id="contact" class="contact">
+            <div class="container">
+                <div class="contact-content">
+                    <h2 class="section-title">Let's Work Together</h2>
+                    <p>
+                        Feel free to reach out if you’d like to collaborate, discuss data-driven solutions, or just connect. I’m always open to new opportunities and conversations.
+                    </p>
+                    <div class="contact-links">
+                        <a href="mailto:vanness.christian@outlook.com" class="contact-link" title="Send Email">
+                            <i class="fa-regular fa-envelope"></i>
+                            Email
+                        </a>
+                        <a href="https://www.linkedin.com/in/vanness-christian-rulianto-58a9242a1/" class="contact-link" target="_blank" rel="noopener noreferrer" title="LinkedIn Profile">
+                            <i class="fa-brands fa-linkedin"></i>
+                            LinkedIn
+                        </a>
+                        <a href="https://github.com/van-lian" class="contact-link" target="_blank" rel="noopener noreferrer" title="GitHub Profile">
+                            <i class="fa-brands fa-github"></i>
+                            GitHub
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <div class="container">
+            <p>© <span id="current-year"></span> Vanness Christian Rulianto. All rights reserved.</p>
+        </div>
+    </footer>
+
+    <!-- External JavaScript -->
+    <script src="js/script.js"></script>
+    <script>
+        // Footer year
+        document.getElementById('current-year').textContent = new Date().getFullYear();
+    </script>
+</body>
+</html>
