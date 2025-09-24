@@ -1,0 +1,33 @@
+{
+  "name": "modern-portfolio",
+  "version": "1.0.0",
+  "description": "A modern, responsive portfolio website with smooth animations and glassmorphism design",
+  "main": "index.html",
+  "scripts": {
+    "start": "npx live-server --port=3000 --open=/index.html",
+    "dev": "npx live-server --port=3000 --open=/index.html --watch=css,js,index.html",
+    "build": "echo 'No build process needed for static site'",
+    "lint": "echo 'Add linting tools here if needed'"
+  },
+  "keywords": [
+    "portfolio",
+    "website",
+    "responsive",
+    "animations",
+    "glassmorphism",
+    "modern"
+  ],
+  "author": "Your Name",
+  "license": "MIT",
+  "devDependencies": {
+    "live-server": "^1.2.2"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/yourusername/modern-portfolio.git"
+  },
+  "bugs": {
+    "url": "https://github.com/yourusername/modern-portfolio/issues"
+  },
+  "homepage": "https://github.com/yourusername/modern-portfolio#readme"
+}
