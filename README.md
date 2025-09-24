@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 # Portofolio-Web-Base
 =======
 # Modern Portfolio Website
