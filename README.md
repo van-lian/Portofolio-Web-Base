@@ -1,8 +1,6 @@
-# Portofolio-Web-Base
-=======
-# Modern Portfolio Website
+# Portfolio Website
 
-A modern, responsive portfolio website with smooth animations and glassmorphism design.
+A responsive portfolio website with smooth animations and glassmorphism design.
 
 ## 🚀 Features
 
