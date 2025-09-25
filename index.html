@@ -51,7 +51,9 @@
         <section id="about" class="about">
             <div class="container">
                 <div class="about-content">
-                    <div class="profile-image"></div>
+                    <div class="profile-image">
+                        <img src="assets/peace.jpeg" alt="Profile picture">
+                    </div>
                     <div class="about-text">
                         <h2>About Me</h2>
                         <p>
@@ -64,25 +66,40 @@
                             Outside of academics and work, I enjoy playing games—mainly osu!—and love listening to music, especially C-Pop. I’m also a fan of sports like badminton and (casually) basketball, and I enjoy reading, whether it’s fiction to unwind or psychology to better understand people and ideas. These hobbies keep me balanced and fuel my curiosity, both in and out of the data field.
                         </p>
                         <div class="skills">
+                            <!-- Programming Languages -->
                             <span class="skill-tag"><i class="fa-brands fa-python" aria-hidden="true"></i> Python</span>
+                            <span class="skill-tag"><i class="fa-solid fa-code" aria-hidden="true"></i> C#</span>
                             <span class="skill-tag"><i class="fa-solid fa-database" aria-hidden="true"></i> SQL</span>
+                            
+                            <!-- Machine Learning & Data Science -->
                             <span class="skill-tag"><i class="fa-solid fa-robot" aria-hidden="true"></i> Machine Learning</span>
                             <span class="skill-tag"><i class="fa-solid fa-brain" aria-hidden="true"></i> Deep Learning (LSTM)</span>
                             <span class="skill-tag"><i class="fa-solid fa-wave-square" aria-hidden="true"></i> Time Series (ARIMA)</span>
                             <span class="skill-tag"><i class="fa-solid fa-flask" aria-hidden="true"></i> Scikit-learn</span>
+                            
+                            <!-- Data Processing Libraries -->
                             <span class="skill-tag"><i class="fa-solid fa-cubes" aria-hidden="true"></i> NumPy</span>
                             <span class="skill-tag"><i class="fa-solid fa-table-cells-large" aria-hidden="true"></i> Pandas</span>
+                            
+                            <!-- Data Visualization -->
                             <span class="skill-tag"><i class="fa-solid fa-chart-line" aria-hidden="true"></i> Matplotlib</span>
                             <span class="skill-tag"><i class="fa-solid fa-chart-bar" aria-hidden="true"></i> Seaborn</span>
                             <span class="skill-tag"><i class="fa-solid fa-chart-area" aria-hidden="true"></i> Plotly</span>
+                            <span class="skill-tag"><i class="fa-solid fa-chart-area" aria-hidden="true"></i> Highcharts</span>
+
+                            <!-- Frameworks & Tools -->
                             <span class="skill-tag"><i class="fa-solid fa-bolt" aria-hidden="true"></i> FastAPI</span>
                             <span class="skill-tag"><i class="fa-solid fa-gauge-high" aria-hidden="true"></i> Streamlit</span>
-                            <span class="skill-tag"><i class="fa-brands fa-docker" aria-hidden="true"></i> Docker</span>
-                            <span class="skill-tag"><i class="fa-brands fa-git-alt" aria-hidden="true"></i> Git</span>
+                            
+                            <!-- Databases -->
                             <span class="skill-tag"><i class="fa-solid fa-database" aria-hidden="true"></i> PostgreSQL</span>
                             <span class="skill-tag"><i class="fa-solid fa-database" aria-hidden="true"></i> MySQL</span>
-                            <span class="skill-tag"><i class="fa-solid fa-chart-area" aria-hidden="true"></i> Highcharts</span>
-                            <span class="skill-tag"><i class="fa-solid fa-code" aria-hidden="true"></i> C#</span>
+                            
+                            <!-- Development Tools -->
+                            <span class="skill-tag"><i class="fa-brands fa-docker" aria-hidden="true"></i> Docker</span>
+                            <span class="skill-tag"><i class="fa-brands fa-git-alt" aria-hidden="true"></i> Git</span>
+                            
+                            <!-- Data Processes -->
                             <span class="skill-tag"><i class="fa-solid fa-diagram-project" aria-hidden="true"></i> Data Pipelines</span>
                             <span class="skill-tag"><i class="fa-solid fa-magnifying-glass-chart" aria-hidden="true"></i> Exploratory Data Analysis</span>
                         </div>
@@ -95,10 +112,10 @@
         <section id="projects">
             <div class="container">
                 <h2 class="section-title">Featured Projects</h2>
+                <p class="demo-note">Want to see these projects in action? Feel free to clone the repositories and run them locally!</p>
                 <div class="projects-grid">
                     <!-- Machine Learning Model Deployment (Most relevant) -->
                     <div class="project-card">
-                        <div class="project-thumb" role="img" aria-label="Project thumbnail placeholder"></div>
                         <h3>Machine Learning Model Deployment</h3>
                         <p>Deployed a machine learning model with FastAPI for a RESTful inference API and integrated Streamlit to provide an interactive dashboard for model exploration and user input.</p>
                         <ul class="project-points">
@@ -116,7 +133,6 @@
 
                     <!-- Time Series Forecasting -->
                     <div class="project-card">
-                        <div class="project-thumb" role="img" aria-label="Project thumbnail placeholder"></div>
                         <h3>Time Series Forecasting</h3>
                         <p>Developed time series forecasting models using Python to predict future trends and patterns from historical data, implementing ARIMA, LSTM, and other advanced forecasting techniques.</p>
                         <ul class="project-points">
@@ -135,7 +151,6 @@
 
                     <!-- Airbnb Data Analysis -->
                     <div class="project-card">
-                        <div class="project-thumb" role="img" aria-label="Project thumbnail placeholder"></div>
                         <h3>Airbnb Data Analysis</h3>
                         <p>Explored Airbnb listings data to uncover insights on pricing, demand, and location trends. Cleaned and analyzed data, built visualizations, and presented actionable findings.</p>
                         <ul class="project-points">
@@ -154,9 +169,8 @@
 
                     <!-- Financial Data Dashboard (no GitHub link) -->
                     <div class="project-card">
-                        <div class="project-thumb" role="img" aria-label="Project thumbnail placeholder"></div>
                         <h3>Financial Data Dashboard</h3>
-                        <p>Developed an interactive dashboard at PT. IMS using C# and Highcharts to transform financial data into actionable insights for client decision-making.</p>
+                        <p>Developed an interactive dashboard at PT. IMS using PostgreSQL, C# and Highcharts to transform financial data into actionable insights for client decision-making.</p>
                         <ul class="project-points">
                             <li>Placeholder note on stakeholder impact or time saved.</li>
                             <li>Placeholder detail on data refresh cadence or charts.</li>
